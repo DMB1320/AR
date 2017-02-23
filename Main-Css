@@ -1,0 +1,33 @@
+body            {font-family: Arial, Comic Sans MS, Verdana; font-size: 12pt; color: white; margin-left: 10px; margin-right: 10px;}
+
+header          {text-align: center;}
+
+h1, h2, h3      {text-align: center;}
+
+a               {text-decoration: underline; color: white;}
+
+a:hover         {background: white;}
+
+img.align-left  {float: left; margin-left: 10px; margin-right: 10px;}
+
+img.align-right {float: right; margin-left: 10px; margin-right: 10px}
+
+li.navlist      {text-align: center; display: inline; list-style-type: none;}
+
+table           {text-align: center; margin-left: auto; margin-right: auto; border-color: white; border-style: ridge; border-width: 10px; border-spacing: 5px; padding: 5px;}
+
+th              {color: white; background-color: #AE0808;}
+
+tr.stripe       {background-color: white; color: #AE0808}
+
+#menubar			{background-color: #bf9e5b; color: white; height: 45px;}
+
+.menu				{float: left; padding: 15px; cursor: default;}
+
+.menu ul			{display: none; position: absolute; list-style: none; margin: 2px 5px 5px 0; padding: 0;}
+
+.menu ul li			{display: block; background-color: #bf9e5b; font-size: small; padding: 0.2em;}
+
+div.menu:hover	ul	{margin: 0; padding: 0; display: block; background-color: white; color: #bf9e5b;}
+
+div.menu ul li:hover	{background-color: #bf9e5b;}
